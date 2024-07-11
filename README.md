@@ -13,8 +13,6 @@ This IP Enrichment Tool enriches an Excel or CSV file with geolocation and abuse
 
 **Requirements**
 
-* Python 3.x
-* Required Python packages:
 * pandas
 * requests
 * openpyxl
