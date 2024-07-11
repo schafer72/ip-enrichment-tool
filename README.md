@@ -48,3 +48,35 @@ python enrichIPs.py <input_file> <output_file> <ip_column> <api_key> [--update]
 * <ip_column>: Name of the column containing IP addresses in the input file.
 * <api_key>: Your AbuseIPDB API key.
 * --update (optional): If specified, updates the input file instead of saving to a new file.
+
+
+
+
+Sample Input File
+
+
+| IP_Address  |  |
+| ----------- | ----------- |
+| 192.0.2.1   | 
+| 198.51.100.14   |
+| 203.0.113.5   | 
+
+
+
+
+Sample Output File
+
+
+| IP_Address  |  CountryCode | AbuseConfidenceScore |
+| ----------- | ----------- | ----------- |
+| 192.0.2.1   |   US |  85
+| 198.51.100.14   | FR | 25
+| 203.0.113.5   |  JP |  5
+
+
+
+
+
+
+
+
