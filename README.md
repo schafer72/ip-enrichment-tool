@@ -42,8 +42,9 @@ python enrichIPs.py <input_file> <output_file> <ip_column> <api_key> [--update]
 ```
 
 **Arguments**
-<input_file>: Path to the input Excel or CSV file containing IP addresses.
-<output_file>: Path to the output enriched Excel or CSV file.
-<ip_column>: Name of the column containing IP addresses in the input file.
-<api_key>: Your AbuseIPDB API key.
---update (optional): If specified, updates the input file instead of saving to a new file.
+
+* <input_file>: Path to the input Excel or CSV file containing IP addresses.
+* <output_file>: Path to the output enriched Excel or CSV file.
+* <ip_column>: Name of the column containing IP addresses in the input file.
+* <api_key>: Your AbuseIPDB API key.
+* --update (optional): If specified, updates the input file instead of saving to a new file.
